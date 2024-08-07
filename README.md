@@ -1,5 +1,3 @@
-Here's a README in markdown format for your Real-Time Chat Application:
-
 ````markdown
 # Real-Time Chat Application
 

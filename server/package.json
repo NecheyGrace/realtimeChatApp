@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A server directory",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NecheyGrace/realtimeChatApp.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "init"
+  ],
+  "author": "Amara Metu",
+  "license": "ISC"
+}
