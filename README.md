@@ -1,4 +1,4 @@
-````markdown
+
 # Real-Time Chat Application
 
 ## Overview
@@ -9,7 +9,7 @@ This project is a real-time chat application developed with TypeScript and Node.
 
 - Real-time messaging using WebSockets
 - User authentication and secure access
-- Private messaging
+- Private Messaging
 - Multiple chat rooms
 - Typing indicators and message notifications
 - Message history storage
@@ -32,7 +32,7 @@ This project is a real-time chat application developed with TypeScript and Node.
    git clone https://github.com/NecheyGrace/realtimeChatApp.git
    cd chat-app
    ```
-````
+
 
 2. **Backend Setup**
 
@@ -86,7 +86,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [MIT License](LICENSE) file for details.
 
 ## Contact
 
