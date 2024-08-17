@@ -4,6 +4,7 @@ import { Server } from "socket.io";
 import config from "config";
 import cors from "cors";
 import logger from "./utils/logger";
+import { version } from "../package.json";
 
 const port = config.get<number>("port");
 const host = config.get<string>("host");
@@ -20,7 +21,10 @@ const io = new Server(httpServer, {
   },
 }); //comes from socket.io
 
-app.get("/", (_, res) => res.send(`Server is up`));
+app.get("/", (_, res) =>
+  res.send(`Server is up and running ${version} and is listening`)
+);
 httpServer.listen(port, host, () => {
-  logger.info("Server is listening");
+  logger.info(`Server ${version} and is listening`);
+  logger.info(`http://${host}:${port}`);
 });
