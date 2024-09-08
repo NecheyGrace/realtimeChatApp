@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A server directory",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon --config nodemon.json src/app.ts"
+    "start": "tsx src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@types/node": "^22.1.0",
     "@types/pino": "^7.0.4",
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.0",
     "typescript": "^5.5.4"
   },
   "dependencies": {
@@ -30,6 +32,7 @@
     "dayjs": "^1.11.12",
     "express": "^4.19.2",
     "mongoose": "^8.5.2",
+    "nanoid": "^5.0.7",
     "pino": "^9.3.2",
     "pino-pretty": "^11.2.2",
     "socket.io": "^4.7.5"
